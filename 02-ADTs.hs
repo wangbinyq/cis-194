@@ -56,3 +56,19 @@ failureToZero' :: FailableDouble -> Double
 failureToZero' x = case x of
                      Failure -> 0
                      OK d    -> d
+
+-- local variables
+-- let in
+lend :: Int -> Int -> Maybe Int
+lend amount balance = let reserve    = 100
+                          newBalance = balance - amount
+                      in if balance < reserve
+                         then Nothing
+                         else Just newBalance
+
+-- where
+lend2 amount balance = if amount < reserve * 0.5
+                      then Just newBalance
+                      else Nothing
+  where reserve    = 100
+        newBalance = balance - amount
