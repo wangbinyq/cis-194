@@ -7,12 +7,26 @@
   (major1) == 0 && (major2) <  1 || \
   (major1) == 0 && (major2) == 1 && (minor) <= 0)
 
+/* package QuickCheck-2.9.2 */
+#define VERSION_QuickCheck "2.9.2"
+#define MIN_VERSION_QuickCheck(major1,major2,minor) (\
+  (major1) <  2 || \
+  (major1) == 2 && (major2) <  9 || \
+  (major1) == 2 && (major2) == 9 && (minor) <= 2)
+
 /* package base-4.9.1.0 */
 #define VERSION_base "4.9.1.0"
 #define MIN_VERSION_base(major1,major2,minor) (\
   (major1) <  4 || \
   (major1) == 4 && (major2) <  9 || \
   (major1) == 4 && (major2) == 9 && (minor) <= 1)
+
+/* package hspec-2.4.3 */
+#define VERSION_hspec "2.4.3"
+#define MIN_VERSION_hspec(major1,major2,minor) (\
+  (major1) <  2 || \
+  (major1) == 2 && (major2) <  4 || \
+  (major1) == 2 && (major2) == 4 && (minor) <= 3)
 
 /* tool gcc-5.4.0 */
 #define TOOL_VERSION_gcc "5.4.0"
@@ -70,7 +84,7 @@
   (major1) == 2 && (major2) <  26 || \
   (major1) == 2 && (major2) == 26 && (minor) <= 0)
 
-#define CURRENT_COMPONENT_ID "cis194-0.1.0.0-7fN4zIVbQFO2tQ8BrNNVMb"
+#define CURRENT_COMPONENT_ID "cis194-0.1.0.0-GjuShc4E5r5FMCas54re29"
 
-#define CURRENT_PACKAGE_KEY "cis194-0.1.0.0-7fN4zIVbQFO2tQ8BrNNVMb"
+#define CURRENT_PACKAGE_KEY "cis194-0.1.0.0-GjuShc4E5r5FMCas54re29"
 

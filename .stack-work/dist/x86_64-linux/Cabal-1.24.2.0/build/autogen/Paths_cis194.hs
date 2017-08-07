@@ -30,7 +30,7 @@ version = Version [0,1,0,0] []
 bindir, libdir, dynlibdir, datadir, libexecdir, sysconfdir :: FilePath
 
 bindir     = "/home/whbb/cis194/.stack-work/install/x86_64-linux/lts-8.21/8.0.2/bin"
-libdir     = "/home/whbb/cis194/.stack-work/install/x86_64-linux/lts-8.21/8.0.2/lib/x86_64-linux-ghc-8.0.2/cis194-0.1.0.0-7fN4zIVbQFO2tQ8BrNNVMb"
+libdir     = "/home/whbb/cis194/.stack-work/install/x86_64-linux/lts-8.21/8.0.2/lib/x86_64-linux-ghc-8.0.2/cis194-0.1.0.0-GjuShc4E5r5FMCas54re29"
 dynlibdir  = "/home/whbb/cis194/.stack-work/install/x86_64-linux/lts-8.21/8.0.2/lib/x86_64-linux-ghc-8.0.2"
 datadir    = "/home/whbb/cis194/.stack-work/install/x86_64-linux/lts-8.21/8.0.2/share/x86_64-linux-ghc-8.0.2/cis194-0.1.0.0"
 libexecdir = "/home/whbb/cis194/.stack-work/install/x86_64-linux/lts-8.21/8.0.2/libexec"
