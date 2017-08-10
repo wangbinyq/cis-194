@@ -84,3 +84,8 @@ module FunctorTest where
     fmap _ Finance = Finance
     fmap _ (Desk a) = Desk a
     fmap f (Bloor b) = Bloor (f b)
+
+  testFunctor :: IO ()
+  testFunctor = do
+    quickCheck (\x -> functorIdentity (x :: [Int]))
+    quickCheck (\x -> functorCompose (+1) (*2) (x :: [Int]))
